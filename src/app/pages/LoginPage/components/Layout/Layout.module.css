@@ -1,0 +1,8 @@
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(133deg, #1C4F4A 0%, rgba(18, 139, 127, 0.89) 100%);
+}

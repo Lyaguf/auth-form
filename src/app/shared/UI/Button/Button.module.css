@@ -1,0 +1,38 @@
+.button {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+
+  &.primary {
+    color: #fff;
+    background-size: cover;
+    transition: all 0.3s;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+      to right,
+      #1a6e66 0%,
+      rgba(39, 102, 96, 0.89) 43%,
+      rgba(15, 196, 178, 0.89) 100%
+    );
+    &:hover {
+      background-position: right center;
+    }
+  }
+
+  &:focus,
+  &:focus-visible,
+  &:hover {
+    box-shadow: 0px 0px 14px 5px rgba(34, 60, 80, 0.2);
+  }
+
+  &:active,
+  &:focus,
+  &:focus-visible {
+    transform: scale(0.96);
+  }
+}

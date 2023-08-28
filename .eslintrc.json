@@ -15,7 +15,8 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": ["./tsconfig.json", "./tsconfig.node.json"]
+    "project": ["./tsconfig.json", "./tsconfig.node.json"],
+    "tsconfigRootDir": "./"
   },
   "plugins": ["react-refresh"],
   "rules": {
@@ -24,5 +25,13 @@
       { "allowConstantExport": true }
     ],
     "@typescript-eslint/no-non-null-assertion": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".tsx", ".ts", ".js", ".jsx"]
+      },
+      "typescript": {}
+    }
   }
 }
