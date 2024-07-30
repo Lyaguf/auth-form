@@ -1,16 +1,16 @@
 .fieldset {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    &.small {
-        row-gap: 15px;
-    }
+  &.small {
+    row-gap: 15px;
+  }
 
-    &.large {
-        row-gap: 25px;
-    }
+  &.large {
+    row-gap: 25px;
+  }
 
-    &.none {
-        row-gap: 0;
-    }
+  &.none {
+    row-gap: 0;
+  }
 }

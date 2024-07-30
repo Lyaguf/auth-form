@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: env?.VAR_PORT ? Number(env?.VAR_PORT) : 8080 ,
     },
+    base: '/auth-form/',
     plugins: [
       react(),
       svgr(),

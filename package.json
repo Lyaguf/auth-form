@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Lyaguf.github.io/auth-form",
+  "homepage": "https://lyaguf.github.io/auth-form",
   "scripts": {
     "prebuild": "npm run lint",
     "start": "vite",
