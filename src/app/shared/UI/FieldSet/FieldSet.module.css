@@ -1,0 +1,16 @@
+.fieldset {
+    display: flex;
+    flex-direction: column;
+
+    &.small {
+        row-gap: 15px;
+    }
+
+    &.large {
+        row-gap: 25px;
+    }
+
+    &.none {
+        row-gap: 0;
+    }
+}

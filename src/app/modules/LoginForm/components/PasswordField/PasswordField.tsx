@@ -17,6 +17,7 @@ export const PasswordField: FC = () => {
         value,
         onChange: handleChange,
         name: 'password',
+        required: true,
         placeholder: 'Type your password',
       }}
     />

@@ -19,7 +19,7 @@ export const FieldWithButton: FC<Omit<IInputProps, 'type'>> = (inputProps) => {
           onClick={handleClick}
           title={showPassword ? 'Hide password' : 'Show password'}
         >
-          {showPassword ? <EyeOpenedIcon /> : <EyeClosedIcon />}
+          {showPassword ?  <EyeClosedIcon /> : <EyeOpenedIcon />}
         </IconButton>
       </div>
     </div>

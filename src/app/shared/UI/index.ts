@@ -6,3 +6,6 @@ export { FormField } from './FormField/FormField';
 export type { IFormFieldProps } from './FormField/FormField';
 export { IconButton } from './IconButton/IconButton'; 
 export type { IIConButtonProps } from './IconButton/IconButton'; 
+export { FieldSet } from './FieldSet/FieldSet';
+export type { GutterSize, IFieldSetProps } from './FieldSet/FieldSet';
+export { Loader } from './Loader/Loader';

@@ -3,7 +3,6 @@ import { Input, FormField } from '@components';
 
 export const EmailField: FC = () => {
   const [value, setValue] = useState('');
-
   const handleChange = (newValue: string) => {
     setValue(newValue);
   };
@@ -14,24 +13,12 @@ export const EmailField: FC = () => {
       field={Input}
       fieldProps={{
         value,
+        type: 'email',
+        name: 'email',
         onChange: handleChange,
+        required: true,
         placeholder: 'Type your email',
       }}
     />
   );
 };
-
-// <div>
-//   <label className={styles.label} htmlFor="email">
-//     Email
-//   </label>
-//   <Input
-//     placeholder="Your email"
-//     type="email"
-//     id="email"
-//     name="email"
-//     onChange={() => {
-//       console.log('test');
-//     }}
-//   />
-// </div>

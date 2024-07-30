@@ -21,6 +21,9 @@
       "@modules/*": ["./src/app/modules/*"],
       "@pages/*": ["./src/app/pages/*"],
       "@icons": ["./src/app/assets/icons"],
+      "@utils": ["./src/app/shared/utils"],
+      "@consts": ["./src/app/shared/constants"],
+      "@hooks": ["./src/app/shared/hooks"],
     },
     "types": [
       "vite-plugin-svgr/client"
