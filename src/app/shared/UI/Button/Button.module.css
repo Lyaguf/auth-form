@@ -11,8 +11,7 @@
   &.primary {
     color: var(--color-white);
     background-size: cover;
-    transition: background 0.3s;
-    transition: transform 0.5s;
+    transition: all 0.3s;
     background-size: 200% auto;
     background-image: linear-gradient(to right,
         #1a6e66 0%,
